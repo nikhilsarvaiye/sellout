@@ -22,7 +22,7 @@ class ProductListWidget extends StatelessWidget {
         child: ListView(
             scrollDirection: Axis.horizontal,
             children: products
-                .map((product) => ProductWidget(product)
+                .map((product) => ProductTileWidget(product)
                     // product.getTileView(
                     //   context: context,
                     //   onFavoritesClick: (() => {onFavoritesTap(product)}),

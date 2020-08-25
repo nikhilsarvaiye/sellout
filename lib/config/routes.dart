@@ -5,6 +5,7 @@
 class Routes {
   static const home = '/';
   static const shop = 'shop';
+  static const categories = 'categories';
   static const cart = 'cart';
   static const favourites = 'favourites';
   static const productList = 'productList';
